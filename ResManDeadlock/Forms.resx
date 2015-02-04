@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="formsEdit_addFiledOrLabel" xml:space="preserve">
+    <value>Add field or label to the form</value>
+  </data>
+  <data name="formsEdit_addNew" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="formsEdit_anonymousUsers" xml:space="preserve">
+    <value>Allow access for Anonymous Users</value>
+  </data>
+  <data name="formsEdit_archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="formsEdit_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="formsEdit_changeElementSettings" xml:space="preserve">
+    <value>Change element settings</value>
+  </data>
+  <data name="formsEdit_clickToBuildForm" xml:space="preserve">
+    <value>Click on element to build your form</value>
+  </data>
+  <data name="formsEdit_customerUsers" xml:space="preserve">
+    <value>Guest Users</value>
+  </data>
+  <data name="formsEdit_defineFormStatesFirst" xml:space="preserve">
+    <value>Define form states (0) </value>
+  </data>
+  <data name="formsEdit_defineFormStatesSecond" xml:space="preserve">
+    <value>to process submitted records.</value>
+  </data>
+  <data name="formsEdit_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="formsEdit_description" xml:space="preserve">
+    <value>Specify a brief description for this form</value>
+  </data>
+  <data name="formsEdit_designYourForm" xml:space="preserve">
+    <value>Design your form</value>
+  </data>
+  <data name="formsEdit_dropdown" xml:space="preserve">
+    <value>Dropdown</value>
+  </data>
+  <data name="formsEdit_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="formsEdit_exampleParagraphText" xml:space="preserve">
+    <value>This element can be used to provide help or description for any item on the form.</value>
+  </data>
+  <data name="formsEdit_exampleParagraphTitle" xml:space="preserve">
+    <value>Example paragraph</value>
+  </data>
+  <data name="formsEdit_file" xml:space="preserve">
+    <value>File attachment</value>
+  </data>
+  <data name="formsEdit_form" xml:space="preserve">
+    <value>Сustom Form</value>
+  </data>
+  <data name="formsEdit_heading" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="formsEdit_input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="formsEdit_label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="formsEdit_listOfChackboxes" xml:space="preserve">
+    <value>List of checkboxes</value>
+  </data>
+  <data name="formsEdit_listOptions" xml:space="preserve">
+    <value>List of options</value>
+  </data>
+  <data name="formsEdit_makeAvailibleForCP" xml:space="preserve">
+    <value>Make form available for Customer Portal users.</value>
+  </data>
+  <data name="formsEdit_optionOneCanAlsoBeChecked" xml:space="preserve">
+    <value>Option A</value>
+  </data>
+  <data name="formsEdit_optionTwoCanAlsoBeChecked" xml:space="preserve">
+    <value>Option B</value>
+  </data>
+  <data name="formsEdit_publish" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="formsEdit_radio" xml:space="preserve">
+    <value>Radio button list</value>
+  </data>
+  <data name="formsEdit_Required" xml:space="preserve">
+    <value>Field is required</value>
+  </data>
+  <data name="formsEdit_returnToForms" xml:space="preserve">
+    <value>Back to forms</value>
+  </data>
+  <data name="formsEdit_saveAsDraft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="formsEdit_saveChanges" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="formsEdit_separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="formsEdit_showCode" xml:space="preserve">
+    <value>Show code</value>
+  </data>
+  <data name="formsEdit_onboardingTitle" xml:space="preserve">
+    <value>Here is how things work:</value>
+  </data>
+  <data name="formsEdit_textArea" xml:space="preserve">
+    <value>Text area</value>
+  </data>
+  <data name="formsEdit_title" xml:space="preserve">
+    <value>Specify name for this form</value>
+  </data>
+  <data name="formsEdit_titleNewElement" xml:space="preserve">
+    <value>New element</value>
+  </data>
+  <data name="formsEdit_userWillBeAbleToAddNewRecords" xml:space="preserve">
+    <value>People who are not Easy Projects users will be able to add new records to this form.</value>
+  </data>
+  <data name="formsEdit_whatDoNext" xml:space="preserve">
+    <value>What to do next:</value>
+  </data>
+  <data name="formsEdit_youCanUseHtml" xml:space="preserve">
+    <value>You can use this HTML code to integrate the form into your web-site.</value>
+  </data>
+  <data name="makeFormAvailibleForExternal" xml:space="preserve">
+    <value>Make form available to external users and your clients:</value>
+  </data>
+  <data name="formsEdit_buildingblocks" xml:space="preserve">
+    <value>Building Blocks</value>
+  </data>
+  <data name="formsEdit_optionsLabel" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="formsEdit_addFiledOrLabel_Title" xml:space="preserve">
+    <value>Add new field or label to the form</value>
+  </data>
+  <data name="ItemHolder_Delete_Row_Title" xml:space="preserve">
+    <value>Delete element</value>
+  </data>
+  <data name="ItemHolder_Edit_Row_Title" xml:space="preserve">
+    <value>Change element settings</value>
+  </data>
+  <data name="ItemHolder_Order_Row_Title" xml:space="preserve">
+    <value>Drag to reorder</value>
+  </data>
+  <data name="PopUp_CloseWindow_Title" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Templates_AddNew_Title" xml:space="preserve">
+    <value>Add new element to the form</value>
+  </data>
+  <data name="formsEdit_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="formsEdit_deleteField" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="formsEdit_deleteFieldCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="formsEdit_deleteFieldConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete this field?</value>
+  </data>
+  <data name="formsEdit_discard" xml:space="preserve">
+    <value>Discard changes</value>
+  </data>
+  <data name="formsEdit_deleteOrArchiveThisForm" xml:space="preserve">
+    <value>Delete or Archive this form</value>
+  </data>
+  <data name="formsEdit_restore_into_draft" xml:space="preserve">
+    <value>Restore into Draft</value>
+  </data>
+  <data name="formEdit_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="formEdit_delete_form" xml:space="preserve">
+    <value>Delete form</value>
+  </data>
+  <data name="formEdit_do_you_want_to_delete" xml:space="preserve">
+    <value>Do you really want to delete this form?</value>
+  </data>
+  <data name="formRecords_InvalidDate" xml:space="preserve">
+    <value>Date is not valid.</value>
+  </data>
+  <data name="Record_Delete_Cancel_Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Record_Delete_Cancel_Title" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Record_Delete_Confirmation_Message" xml:space="preserve">
+    <value>Do you really want to delete this record?</value>
+  </data>
+  <data name="Record_Delete_Delete_Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Record_Delete_Delete_Title" xml:space="preserve">
+    <value>Delete this record</value>
+  </data>
+  <data name="formsEdit_or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Templates_DropDown_ValueOne" xml:space="preserve">
+    <value>Value 1</value>
+  </data>
+  <data name="Templates_DropDown_ValueTwo" xml:space="preserve">
+    <value>Value 2</value>
+  </data>
+  <data name="Templates_File_ChooseFile" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Templates_File_DefaultText" xml:space="preserve">
+    <value>No file chosen</value>
+  </data>
+  <data name="Templates_Radio_OptionOne" xml:space="preserve">
+    <value>Option A</value>
+  </data>
+  <data name="Templates_Radio_OptionTwo" xml:space="preserve">
+    <value>Option B</value>
+  </data>
+  <data name="Record_No_Records_To_Display_Text" xml:space="preserve">
+    <value>No records to display</value>
+  </data>
+  <data name="formsEdit_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="formsPermissions_AddRecords" xml:space="preserve">
+    <value>Add records</value>
+  </data>
+  <data name="formsPermissions_AddUsersOrTeams" xml:space="preserve">
+    <value>Add users or teams</value>
+  </data>
+  <data name="formsPermissions_EditRecords" xml:space="preserve">
+    <value>Edit and handle records</value>
+  </data>
+  <data name="formsPermissions_FormTitle" xml:space="preserve">
+    <value>Custom Form</value>
+  </data>
+  <data name="formsPermissions_ManageCustomForm" xml:space="preserve">
+    <value>Manage Custom Form and records</value>
+  </data>
+  <data name="formsPermissions_RecordsTitle" xml:space="preserve">
+    <value>Records</value>
+  </data>
+  <data name="formsPermissions_SpecifyTitle" xml:space="preserve">
+    <value>Specify who can access this form</value>
+  </data>
+  <data name="formsPermissions_ViewRecords" xml:space="preserve">
+    <value>View all records</value>
+  </data>
+  <data name="TeamsSelector" xml:space="preserve">
+    <value>Teams</value>
+  </data>
+  <data name="UsersSelector" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="formsPermissions_do_you_want_to_delete" xml:space="preserve">
+    <value>Do you really want to exclude this user?</value>
+  </data>
+  <data name="formsEdit_notSavedChangesMessage" xml:space="preserve">
+    <value>Your changes will be lost. Do you want to leave this page without save changes?</value>
+  </data>
+  <data name="GroupEveryone" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="GroupsSelector" xml:space="preserve">
+    <value>Predefined user groups</value>
+  </data>
+  <data name="formsPermissions_do_you_want_to_delete_team" xml:space="preserve">
+    <value>Do you really want to exclude this team?</value>
+  </data>
+  <data name="formsEdit_titleRequired" xml:space="preserve">
+    <value>This is required field.</value>
+  </data>
+  <data name="formsEdit_onboardingHint1" xml:space="preserve">
+    <value>Add element from library</value>
+  </data>
+  <data name="formsEdit_onboardingHint2" xml:space="preserve">
+    <value>Change fields order</value>
+  </data>
+  <data name="formsEdit_onboardingHint3" xml:space="preserve">
+    <value>Change fields settings</value>
+  </data>
+  <data name="formEdit_activeButton_title" xml:space="preserve">
+    <value>Active Forms are available for the users to add records</value>
+  </data>
+  <data name="formEdit_draftButton_title" xml:space="preserve">
+    <value>Draft form can be modified however nobody can add records to it.</value>
+  </data>
+  <data name="formsPermissions_No_DisplayUsersAndTeams" xml:space="preserve">
+    <value>Nobody can yet access the form.</value>
+  </data>
+  <data name="formsEdit_CheckboxesLabel" xml:space="preserve">
+    <value>Checkboxes label</value>
+  </data>
+  <data name="formsEdit_Label1" xml:space="preserve">
+    <value>label 1</value>
+  </data>
+  <data name="formsEdit_Label2" xml:space="preserve">
+    <value>label 2</value>
+  </data>
+  <data name="formsEdit_Label3" xml:space="preserve">
+    <value>label 3</value>
+  </data>
+  <data name="formsEdit_Label4" xml:space="preserve">
+    <value>label 4</value>
+  </data>
+  <data name="formsEdit_onboardingDropdown" xml:space="preserve">
+    <value>Dropdown</value>
+  </data>
+  <data name="formsEdit_conversionRulesTitle" xml:space="preserve">
+    <value>Conversion: </value>
+  </data>
+  <data name="formsEdit_help_title" xml:space="preserve">
+    <value>Click to read some hints on form design</value>
+  </data>
+  <data name="formsEdit_showLink" xml:space="preserve">
+    <value>Show link</value>
+  </data>
+  <data name="Record_No_Records_To_Display_Text_PermanentLink" xml:space="preserve">
+    <value>No record to display or you do not have permissions to see it</value>
+  </data>
+  <data name="formsEdit_help" xml:space="preserve">
+    <value>You’re about to create a new form. Steps include: designing form layout and deciding who and how can access it. Once the form is Active, people will be able to start using it (adding records).</value>
+  </data>
+  <data name="formsEdit_preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="formsEdit_preview_Title" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="formsEdit_closeBtnTitle" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="formsEdit_noFields" xml:space="preserve">
+    <value>Please add fields first.</value>
+  </data>
+  <data name="formNotifications_Text" xml:space="preserve">
+    <value>Send notification when new record is submitted</value>
+  </data>
+  <data name="formsNotifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="formsEdit_ShowConversionRules" xml:space="preserve">
+    <value>Manage conversion to projects and activities</value>
+  </data>
+  <data name="formsEdit_conversionToIssue" xml:space="preserve">
+    <value>Form to Issue</value>
+  </data>
+  <data name="formsEdit_conversionToIssueDescription" xml:space="preserve">
+    <value>Please choose how fields from this form should be mapped to a new issue.</value>
+  </data>
+  <data name="formsEdit_conversionToProject" xml:space="preserve">
+    <value>Form to Project</value>
+  </data>
+  <data name="formsEdit_conversionToProjectDescription" xml:space="preserve">
+    <value>Please choose how fields from this form should be mapped to a new project.</value>
+  </data>
+  <data name="formsEdit_conversionToRequest" xml:space="preserve">
+    <value>Form to Request</value>
+  </data>
+  <data name="formsEdit_conversionToRequestDescription" xml:space="preserve">
+    <value>Please choose how fields from this form should be mapped to a new request.</value>
+  </data>
+  <data name="formsEdit_conversionToTask" xml:space="preserve">
+    <value>Form to Task</value>
+  </data>
+  <data name="formsEdit_conversionToTaskDescription" xml:space="preserve">
+    <value>Please choose how fields from this form should be mapped to a new task.</value>
+  </data>
+  <data name="FormsConversion_PleaseSelect" xml:space="preserve">
+    <value>- Please select project -</value>
+  </data>
+  <data name="FormsConversion_ProjectForActivityDescription" xml:space="preserve">
+    <value>Project to add converted activities:</value>
+  </data>
+  <data name="formsEdit_NotifyRecordCreator" xml:space="preserve">
+    <value>Send confirmation</value>
+  </data>
+  <data name="formsEdit_NotifySelectDefault" xml:space="preserve">
+    <value>Select email field</value>
+  </data>
+  <data name="formsEdit_emailWillBeSent" xml:space="preserve">
+    <value>Email will be sent to an address in the selected field or, if empty, to the submitter.</value>
+  </data>
+  <data name="formsEdit_guestUsers" xml:space="preserve">
+    <value>Guest Portal</value>
+  </data>
+  <data name="formsEdit_guestUsersDescription" xml:space="preserve">
+    <value>Make form available to all Guest users</value>
+  </data>
+</root>
